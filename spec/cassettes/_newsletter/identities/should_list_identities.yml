@@ -1,0 +1,41 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: https://sendgrid.com/api/newsletter/identity/list.json?api_key=pass&api_user=user
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+      User-Agent: 
+      - Ruby
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Server: 
+      - nginx/1.2.3
+      Date: 
+      - Tue, 05 Mar 2013 12:07:49 GMT
+      Content-Type: 
+      - text/html
+      Transfer-Encoding: 
+      - chunked
+      Connection: 
+      - keep-alive
+      Content-Encoding: 
+      - gzip
+    body: 
+      encoding: ASCII-8BIT
+      string: !binary |
+        H4sIAAAAAAAAA4uuVspMSc0rySypVLJSUCpOTc7PS4mHC9XqoMqXpBaXIMnG
+        AgCuD6hHPwAAAA==
+
+    http_version: 
+  recorded_at: Tue, 05 Mar 2013 12:07:48 GMT
+recorded_with: VCR 2.1.1

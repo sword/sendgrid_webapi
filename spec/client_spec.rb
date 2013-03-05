@@ -129,4 +129,3 @@ describe "client" do
     end
   end
 end
-
